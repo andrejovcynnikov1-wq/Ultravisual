@@ -7,6 +7,10 @@ version = project.mod_version
 group = project.maven_group
 base { archivesName = project.archives_base_name }
 
+loom {
+    accessWidenerPath = file("src/main/resources/ultravisual.accesswidener")
+}
+
 repositories { }
 
 dependencies {

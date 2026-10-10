@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ultravisual",
+  "version": "${version}",
+  "name": "ULTRA VISUAL",
+  "description": "ULTRA VISUAL: ESP сквозь блоки, китайская шляпа, HUD на Right Shift",
+  "environment": "client",
+  "accessWidener": "ultravisual.accesswidener",
+  "entrypoints": { "client": ["com.example.esp.EspMod"] },
+  "depends": {
+    "fabricloader": ">=0.18",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
